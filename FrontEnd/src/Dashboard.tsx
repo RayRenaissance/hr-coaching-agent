@@ -603,7 +603,7 @@ export default function Dashboard() {
                   <CardHeader>
                     <div className="flex items-start gap-3">
                       <div className="p-2 bg-secondary/10 rounded-lg shrink-0">
-                        <Icon className="w-5 h-5 text-secondary" />
+                        {Icon && <Icon className="w-5 h-5 text-secondary" />}
                       </div>
                       <div>
                         <CardTitle className="text-base">Tip {i + 1}</CardTitle>
